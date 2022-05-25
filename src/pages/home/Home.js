@@ -1,9 +1,11 @@
 import React from 'react'
+import Slider from '../../components/slider/Slider'
 import './Home.scss'
 
 function Home() {
   return (
     <div>
+      <Slider/>
       <div className="home_container">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1280px-International_Pok%C3%A9mon_logo.svg.png" alt="" />
         <div className="home_text">
